@@ -22,6 +22,7 @@
 	- Nekonečný výpis paketů při zadání parametru "-n -1" (nutné manuální ukončení programu).
 
 Poznámky k implementaci:
+
 	1. V případě volání "sudo ./ipk-sniffer" dojde k vypsání všech aktivních zařízení
 	   které je možné použít s funkcí "pcap_open_live()", nefiltruji "RUNNING" ani "UP" flagy.
 	   V případě, že není zadán parametr "-i", ale je zadán některý další argument správně
