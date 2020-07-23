@@ -52,17 +52,17 @@ Poznámky k implementaci:
 	9. Argument "-h" nebo "--help" slouží k výpisu nápovědy k programu.
 
 Seznam souborů:
-	ipk-sniffer.cpp
-	ipk-sniffer.hpp
-	Makefile
-	README
-	manual.pdf
+- ipk-sniffer.cpp
+- ipk-sniffer.hpp
+- Makefile
+- README
+- manual.pdf
 
 Příklady spuštění:
-	sudo ./ipk-sniffer -i enp0s3,lo,any -n 30 -p 80
-	sudo ./ipk-sniffer -i enp0s3 -n -1 -u
-	sudo ./ipk-sniffer -i enp0s3 -t -p 80,22
-
+```sudo ./ipk-sniffer -i enp0s3,lo,any -n 30 -p 80
+sudo ./ipk-sniffer -i enp0s3 -n -1 -u
+sudo ./ipk-sniffer -i enp0s3 -t -p 80,22
+```
 Ukázka spuštění (na referenčním stroji):
 
 	```student@student-vm:\~/Desktop/xjulin08$ make
