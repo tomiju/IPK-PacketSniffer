@@ -2,6 +2,7 @@
 ### Varianta: [ZETA] Sniffer paketů
 ### Autor: Tomáš Julina (xjulin08)
 ### Datum: 01.05.2020
+### Hodnocení: 19/20 (+1 bonus)
 
 ***
 * Zvolený jazyk: C++
